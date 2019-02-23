@@ -2,6 +2,27 @@
 
 # set up
 
+adjust your .env db conecction
+
+```
+
+APP_ENV=local
+APP_DEBUG=true
+APP_KEY=
+APP_TIMEZONE=UTC
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=todolist
+DB_USERNAME=root
+DB_PASSWORD=12345
+
+CACHE_DRIVER=file
+QUEUE_DRIVER=sync
+
+```
+
 `composer install`
 
 `php artisan migrate:refresh`
