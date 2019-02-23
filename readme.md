@@ -39,10 +39,9 @@ http://your-domain-host/api/items/incompleted
 http://your-domain-host/api/items/
 
 input params
-  - name (string)
-  - priority (digits)
-  - location (string)
-  - start_time (time format 00:00)
+  - 'description',
+  - 'due',
+  - 'urgency',
 
 ## Updating items (method:PUT)
 http://your-domain-host/api/items/id
