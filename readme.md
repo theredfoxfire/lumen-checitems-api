@@ -1,8 +1,11 @@
 ## Endpoint
 
-#set up
+# set up
+
 `composer install`
+
 `php artisan migrate:refresh`
+
 `php -S localhost:8000 -t ./public`
 
 # Header
